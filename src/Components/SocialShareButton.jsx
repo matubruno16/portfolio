@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../../index.css';
+import '../index.css';
 import { FaFacebook, FaWhatsapp, FaLinkedin, FaInstagram,  FaShareAlt, FaGithub, FaTelegram, } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si'
 import { BiLogoNetlify } from 'react-icons/bi'

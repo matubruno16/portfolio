@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { SocialShareButton  } from "./SocialShareButton";
 import { useState } from "react";
-import ovni from "../Images/ufo.png"
+import ovni from "../assets/Images/ufo.png"
 
 export const Home = () => {
 
