@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { BsFacebook, BsInstagram, BsLinkedin, BsGithub } from 'react-icons/bs'
+import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 
 export const Contact = () => {
   return (
@@ -14,10 +14,10 @@ export const Contact = () => {
           target='_blank'
         >Contact me</motion.a>
         <ul className='flex '>
-          <li><a href="https://www.facebook.com/matias.bruno19/" rel="noopener noreferrer" target='_blank' ><BsFacebook className='mt-8 text-blue-500 w-10 h-10 hover:scale-125 transition-all duration-500 hover:brightness-125 mx-4' /></a></li>
-          <li><a href="https://www.instagram.com/matubruno16/" rel="noopener noreferrer" target='_blank'><BsInstagram className='mt-8 text-Instagram w-10 h-10 hover:scale-125 transition-all duration-500 hover:brightness-125 mx-4' /></a></li>
-          <li><a href="https://www.linkedin.com/in/matiasbruno19/" rel="noopener noreferrer" target='_blank'><BsLinkedin className='mt-8 text-LinkedIn w-10 h-10 hover:scale-125 transition-all duration-500 hover:brightness-125 mx-4' /></a></li>
-          <li><a href="https://github.com/matubruno16" rel="noopener noreferrer" target='_blank'><BsGithub className='mt-8 text-white w-10 h-10 hover:scale-125 transition-all duration-500 hover:brightness-125 mx-4' /></a></li>
+          <li><a href="https://www.facebook.com/matias.bruno19/" rel="noopener noreferrer" target='_blank' ><FaFacebook className='mt-8 text-blue-500 w-10 h-10 hover:scale-125 transition-all duration-500 hover:brightness-125 mx-4' /></a></li>
+          <li><a href="https://www.instagram.com/matubruno16/" rel="noopener noreferrer" target='_blank'><FaInstagram className='mt-8 text-Instagram w-10 h-10 hover:scale-125 transition-all duration-500 hover:brightness-125 mx-4' /></a></li>
+          <li><a href="https://www.linkedin.com/in/matiasbruno19/" rel="noopener noreferrer" target='_blank'><FaLinkedin className='mt-8 text-LinkedIn w-10 h-10 hover:scale-125 transition-all duration-500 hover:brightness-125 mx-4' /></a></li>
+          <li><a href="https://github.com/matubruno16" rel="noopener noreferrer" target='_blank'><FaGithub className='mt-8 text-white w-10 h-10 hover:scale-125 transition-all duration-500 hover:brightness-125 mx-4' /></a></li>
 
         </ul>
         <p className='text-white translate-y-16'>© Copyright 2023 <strong>Matias Bruno. </strong>All Rights Reserved </p>

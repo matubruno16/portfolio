@@ -30,7 +30,7 @@ export const Home = () => {
         className="mx-auto p-6 md:w-[700px]  text-white text-center z-10 pt-[100px] md:pt-[150px] pl-10 ">
         <h2 className="text-[36px] md:text-[48px]">Hi! I am Matías </h2>
         <h1 className="sm:text-[30px]">Web Developer Junior</h1>
-        <p className="text-[16px] mt-4">I focus on design elegance and functionality. I am currently a student of the university technical degree in computer applications development.</p>
+        <p className="text-[20px] mt-4">I focus on design elegance and functionality. I am currently a student of the university technical degree in computer applications development.</p>
 
         <SocialShareButton />        
          
