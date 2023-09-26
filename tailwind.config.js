@@ -25,7 +25,7 @@ export default {
           'Backgound': 'linear-gradient(0deg, #0d0d0e 6%, #1b1e26 95%)',
           'Overlay': "url('/src/assets/Images/endless-constellation.svg')",
           'OverlayTransparent' : '#0097fb3c',
-          'BackgroundHome': "url('./src/assets/Images/universe-planet-background.webp')",
+          'BackgroundHome': "url('/src/assets/Images/universe-planet-background.webp')",
 
       },
       fontFamily:{
