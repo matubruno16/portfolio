@@ -13,7 +13,7 @@ export const CardProyect = ({ title, description, img, urlSit, urlCod }) => {
         className="flex max-w-[350px] flex-col rounded-xl max-md:mx-auto bg-BackgroundCard bg-clip-border text-gray-700 shadow-md">
         <div className="overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none ">
           <img
-            className="hover:scale-110 transition-all duration-500 overflow-hidden w-[100%] h-[205px] bg-cover"
+            className="hover:scale-110 transition-all duration-500 overflow-hidden w-[100%] h-[205px] bg-cover aspect-video "
             src={img}
             alt={`Imagen del sitio ${title}`}
           />

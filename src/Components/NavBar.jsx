@@ -61,7 +61,7 @@ export const NavBar = () => {
         ? ` ${navbarBackground === 'transparent' ? 'bg-transparent' : ' bg-BackgroundHome'} fixed top-0  w-screen h-[80px] z-[300]`
         : ' h-screen fixed bg-BackgroundHome bg-left-top z-[300] ']}>
       <div className='flex justify-between items-center px-10 xl:px-20 w-screen pt-4 md:pt-0'>
-        <a href="" className="text-white font-Oswald text-4xl">Portfolio</a>
+        <a href="https://matubruno16.github.io/portfolio" className="text-white font-Oswald text-4xl">Portfolio</a>
         <svg onClick={handleClick} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 cursor-pointer text-white sm:hidden">
           <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
