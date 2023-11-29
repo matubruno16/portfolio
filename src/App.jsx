@@ -1,13 +1,13 @@
-import { About } from "./Components/About"
-import { Certifications } from "./Components/Certifications"
-import { Contact } from "./Components/Contact"
-import { Home } from "./Components/Home"
-import { NavBar } from "./Components/NavBar"
-import { Proyects } from "./Components/Proyects"
-import { Services } from "./Components/Services"
+import { About } from "./Components/About";
+import { Certifications } from "./Components/Certifications";
+import { Contact } from "./Components/Contact";
+import { Home } from "./Components/Home";
+import { NavBar } from "./Components/NavBar";
+import { Proyects } from "./Components/Proyects";
+import { Services } from "./Components/Services";
 
 function App() {
-   return (
+  return (
     <>
       <NavBar />
       <Home />
@@ -17,7 +17,7 @@ function App() {
       <Services />
       <Contact />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
