@@ -1,16 +1,16 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import certifGoogle from "../assets/Certificate/Certidicado Google Activate Desarrollo Web 1_001.webp";
-import certifADDPython from "../assets/Certificate/Certificado analisis de datos con Python_001.webp";
-import certifArgProg from "../assets/Certificate/Certificado argentina_programa_2022_001.webp";
-import certifDesarWeb from "../assets/Certificate/Certificado Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL_001.webp";
-import certifHtmlCss from "../assets/Certificate/Certificado HTML y CSS - OpenBootcamp_001.webp";
-import certifJavascript from "../assets/Certificate/Certificado Javascript - OpenBootcamp_001.webp";
-import certifPPF from "../assets/Certificate/Certificado Primeros Pasos del Desarrollo FrontEnd TICMAS_001.webp";
-import certifTesting from "../assets/Certificate/Certificado Software Testing MasterClass_001.webp";
-import certifWordpress from "../assets/Certificate/Certificado Wordpress_001.webp";
-import certifReactJS from "../assets/Certificate/Certificado UTN Desarrollo Web REACT JS.webp";
+import certifGoogle from "../assets/Certificate/CertidicadoGoogleActivateDesarrolloWeb.webp";
+import certifADDPython from "../assets/Certificate/CertificadoAnalisisDeDatosConPython.webp";
+import certifArgProg from "../assets/Certificate/CertificadoArgentinaPrograma2022.webp";
+import certifDesarWeb from "../assets/Certificate/CertificadoDesarrolloWebCompleto.webp";
+import certifHtmlCss from "../assets/Certificate/CertificadoHTMLyCSS.webp";
+import certifJavascript from "../assets/Certificate/CertificadoJavascript.webp";
+import certifPPF from "../assets/Certificate/CertificadoPrimerosPasoDelDesarrolloFrontEndTICMAS.webp";
+import certifTesting from "../assets/Certificate/CertificadoSoftwareTestingMasterClass.webp";
+import certifWordpress from "../assets/Certificate/CertificadoWordpress.webp";
+import certifReactJS from "../assets/Certificate/CertificadoUTNDesarrolloWebREACTJS.webp";
 
 export const Certifications = () => {
   const settings = {
@@ -33,7 +33,7 @@ export const Certifications = () => {
         <Slider {...settings}>
           <div className="">
             <img
-              className="  bg-cover px-2"
+              className="bg-cover px-2"
               src={certifReactJS}
               alt="Certificado Desarrollo Web con React JS"
             />
