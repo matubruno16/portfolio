@@ -10,6 +10,7 @@ import certifJavascript from "../assets/Certificate/Certificado Javascript - Ope
 import certifPPF from "../assets/Certificate/Certificado Primeros Pasos del Desarrollo FrontEnd TICMAS_001.webp";
 import certifTesting from "../assets/Certificate/Certificado Software Testing MasterClass_001.webp";
 import certifWordpress from "../assets/Certificate/Certificado Wordpress_001.webp";
+import certifReactJS from "../assets/Certificate/Certificado UTN Desarrollo Web REACT JS.webp";
 
 export const Certifications = () => {
   const settings = {
@@ -30,6 +31,13 @@ export const Certifications = () => {
       </p>
       <div>
         <Slider {...settings}>
+          <div className="">
+            <img
+              className="  bg-cover px-2"
+              src={certifReactJS}
+              alt="Certificado Desarrollo Web con React JS"
+            />
+          </div>
           <div className="">
             <img
               className="  bg-cover px-2"
