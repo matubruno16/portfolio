@@ -1,12 +1,13 @@
 import { CardProyect } from "./CardProyect";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import homeBoutique from "../assets/Images/home-Boutique-De-Hebras.webp";
-import homeBienesRaices from "../assets/Images/home-bienes-raices.webp";
+import homeBoutique from "../assets/Images/Inicio-Boutique-de-Hebras.webp";
+import homeTodoList from "../assets/Images/Inicio-TODOLIST.webp";
 import homeCoinBase from "../assets/Images/home-coinbase.webp";
 import homeSocialMedia from "../assets/Images/home-social-media.webp";
 import homeSunnySide from "../assets/Images/home-sunnyside.webp";
 import homeRelojJs from "../assets/Images/home-reloj.webp";
+import homeTaTeTi from "../assets/Images/HomeTaTeTi.webp";
 
 export const Proyects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -19,7 +20,7 @@ export const Proyects = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Verificar la visibilidad inicial
+    handleScroll();
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -58,11 +59,11 @@ export const Proyects = () => {
           transition={{ delay: 0.5, duration: 2, stiffness: 100 }}
         >
           <CardProyect
-            urlSit="https://bienes-raices-matias.netlify.app"
-            urlCod="https://github.com/matubruno16/bienesraices"
-            img={homeBienesRaices}
-            title="Web Bienes Raices"
-            description="Web designed in HTML, SCSS and Javascript."
+            urlSit="https://todo-list-react-mb.netlify.app/"
+            urlCod="https://github.com/matubruno16/todolist"
+            img={homeTodoList}
+            title="ToDo List"
+            description="Task list developed in React JS and Tailwind CSS"
           />
         </motion.article>
         <motion.article
@@ -101,7 +102,7 @@ export const Proyects = () => {
             urlCod="https://github.com/matubruno16/sunnyside-single-page"
             img={homeSunnySide}
             title="Challenge Sunny Side "
-            description="challenge developed in React and Tailwind CSS."
+            description="Challenge developed in React and Tailwind CSS."
           />
         </motion.article>
         <motion.article
@@ -115,6 +116,19 @@ export const Proyects = () => {
             img={homeRelojJs}
             title="Live Clock"
             description="Live updated clock with JavaScript transitions."
+          />
+        </motion.article>
+        <motion.article
+          initial={{ opacity: 0, x: 50 }}
+          animate={isVisible ? { opacity: 1, x: 0 } : {}}
+          transition={{ delay: 3, duration: 2, stiffness: 100 }}
+        >
+          <CardProyect
+            urlSit="https://tatetireactjs.netlify.app/"
+            urlCod="https://github.com/matubruno16/tateti"
+            img={homeTaTeTi}
+            title="Ta-Te-Ti"
+            description="Ta te ti game developed in React JS"
           />
         </motion.article>
       </div>
