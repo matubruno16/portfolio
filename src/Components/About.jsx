@@ -10,7 +10,7 @@ import imgMysql from "../assets/Images/mysql.png";
 export const About = () => {
   return (
     <section
-      name="About"
+      name="Sobre Mi"
       className="w-[90%] xl:w-[80%] max-md:w-[80%] mx-auto pt-16"
     >
       <div className="md:grid md:grid-cols-2">

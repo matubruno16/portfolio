@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 export const Services = () => {
   return (
     <section
-      name="Services"
+      name="Servicios"
       className="xl:w-[80%] w-[95%] mx-auto h-auto my-20"
     >
-      <h3 className="text-[50px] uppercase font-bold font-Oswald mt-6 text-center">
+      <h3 className="text-[50px] uppercase font-bold font-Oswald mt-10 text-center">
         Servicios
       </h3>
       <p className="text-center text-sm pb-[40px]">

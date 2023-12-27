@@ -41,7 +41,7 @@ export const Home = () => {
       {({ isVisible }) => (
         <section
           onMouseMove={handleMouseMove}
-          name="Home"
+          name="Inicio"
           className="bg-BackgroundHome bg-cover bg-center p-6 h-screen overflow-hidden mx-auto flex flex-col relative"
         >
           <motion.img

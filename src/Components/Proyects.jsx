@@ -27,7 +27,7 @@ export const Proyects = () => {
   }, []);
 
   return (
-    <section name="Proyects" className="w-[80%] mx-auto h-auto ">
+    <section name="Proyectos" className="w-[80%] mx-auto h-auto ">
       <h3 className="text-[50px] uppercase font-bold font-Oswald mt-6 text-center">
         Proyectos
       </h3>
