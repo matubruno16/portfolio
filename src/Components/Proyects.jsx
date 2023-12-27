@@ -29,10 +29,10 @@ export const Proyects = () => {
   return (
     <section name="Proyects" className="w-[80%] mx-auto h-auto ">
       <h3 className="text-[50px] uppercase font-bold font-Oswald mt-6 text-center">
-        Proyects
+        Proyectos
       </h3>
       <p className="text-center text-sm pb-[40px]">
-        Some projects created with HTML5, CSS3, Javascript and Wordpress
+      Proyectos creados con HTML5, CSS3, Javascript, React JS, Tailwind CSS y Wordpress
       </p>
 
       <div
@@ -49,7 +49,7 @@ export const Proyects = () => {
             urlCod="https://boutiquedehebras.com.ar"
             img={homeBoutique}
             title="Boutique de Hebras"
-            description="Wordpress ecommerce store with shopping cart."
+            description="Tienda E-commerce en Wordpress y Woocommerce"
           />
         </motion.article>
 
@@ -63,7 +63,7 @@ export const Proyects = () => {
             urlCod="https://github.com/matubruno16/todolist"
             img={homeTodoList}
             title="ToDo List"
-            description="Task list developed in React JS and Tailwind CSS"
+            description="Lista de tareas desarrollado con React JS and Tailwind CSS"
           />
         </motion.article>
         <motion.article
@@ -75,8 +75,8 @@ export const Proyects = () => {
             urlSit="https://coinbasecripto.netlify.app"
             urlCod="https://github.com/matubruno16/coin_base"
             img={homeCoinBase}
-            title="CoinBase Copy"
-            description="Web designed in HTML, SCSS and Javascript."
+            title="CoinBase"
+            description="Copia sitio Web con HTML, SCSS y Javascript."
           />
         </motion.article>
         <motion.article
@@ -89,7 +89,7 @@ export const Proyects = () => {
             urlCod="https://github.com/matubruno16/social-media-dashboard"
             img={homeSocialMedia}
             title="Social Media Dashboard"
-            description="Social media dashboard en React and Tailwind CSS."
+            description="Dashboard en React y Tailwind CSS."
           />
         </motion.article>
         <motion.article
@@ -101,8 +101,8 @@ export const Proyects = () => {
             urlSit="https://sunnyside-single-page.netlify.app"
             urlCod="https://github.com/matubruno16/sunnyside-single-page"
             img={homeSunnySide}
-            title="Challenge Sunny Side "
-            description="Challenge developed in React and Tailwind CSS."
+            title="Sunny Side "
+            description="Desafio FrontMentor en React y Tailwind CSS."
           />
         </motion.article>
         <motion.article
@@ -114,8 +114,8 @@ export const Proyects = () => {
             urlSit="https://relojenvivo.netlify.app"
             urlCod="https://github.com/matubruno16/reloj-js"
             img={homeRelojJs}
-            title="Live Clock"
-            description="Live updated clock with JavaScript transitions."
+            title="Reloj"
+            description="Reloj desarrollado en Javascript con transiciones."
           />
         </motion.article>
         <motion.article
@@ -128,7 +128,7 @@ export const Proyects = () => {
             urlCod="https://github.com/matubruno16/tateti"
             img={homeTaTeTi}
             title="Ta-Te-Ti"
-            description="Ta te ti game developed in React JS"
+            description="Juego Ta te ti desarrollado en React JS"
           />
         </motion.article>
       </div>

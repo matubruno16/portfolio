@@ -74,3 +74,22 @@ body {
   font-size: 2.5em;
   box-shadow: 0 0 0 2px var(--clr), 0 0 0 6px #fff;
 }
+
+.intermitente{
+  border: 1px solid #131d7567; 
+  
+  box-shadow: 0px 0px 20px ;
+  animation: infinite 
+  resplandorAnimation 2s;
+  
+}
+@keyframes resplandorAnimation {
+  0%,100%{
+    box-shadow: 0px 0px 50px blue
+  }
+  50%{
+  box-shadow: 0px 0px 2px blue; 
+  
+  }
+
+}

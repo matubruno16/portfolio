@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { BiLogoNetlify } from "react-icons/bi";
-import { AiOutlineArrowUp } from "react-icons/ai";
+
 
 export const SocialShareButton = () => {
   const [isActive, setIsActive] = useState(false);
@@ -73,13 +73,14 @@ export const SocialShareButton = () => {
 
   return (
     <>
-      <div className={`menu ${isActive ? "active" : ""}`}>
-        <div className="toggle" onClick={toggleMenu}>
+      <div className={`menu  ${isActive ? "active" : ""}`}>
+        <div className="toggle intermitente " onClick={toggleMenu}>
           <FaShareAlt />
         </div>
         {socialLinks.map((link, index) => (
           <li key={index} style={{ "--i": index, "--clr": link.color }}>
-            <a href={link.url} target="_blank" rel="noopener noreferrer">
+            <a href={link.url} target="_blank" rel="noopener noreferrer"
+            >
               {link.icon}
             </a>
           </li>
@@ -90,10 +91,7 @@ export const SocialShareButton = () => {
           isActive ? "hidden" : "flex flex-col items-center translate-y-[-70px]"
         }`}
       >
-        <i className="m-4">
-          <AiOutlineArrowUp />
-        </i>
-        <p>Click to contact me</p>
+       
       </div>
     </>
   );

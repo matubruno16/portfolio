@@ -23,10 +23,10 @@ export const About = () => {
             />
             <div className="flex flex-col text-center ml-4">
               <p className="mt-4">
-                <span className="font-bold">Name:</span> Matias Ceferino Bruno
+                <span className="font-bold">Nombre:</span> Matias Ceferino Bruno
               </p>
               <p className="mt-4">
-                <span className="font-bold">Profile:</span> Front End Developer
+                <span className="font-bold">Perfil:</span> Full Stack
               </p>
               <motion.a
                 whileHover={{ scale: 1.1 }}
@@ -35,14 +35,14 @@ export const About = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Download Resume
+                Descargar CV
               </motion.a>
             </div>
           </div>
           <div>
-            <div className="mt-10 ">
-              <p className="text-xl text-center">Skills</p>
-              <div className="grid grid-cols-3  justify-items-center mt-4 gap-4 sm:w-[70%] mx-auto ">
+            <div className="my-10">
+              <p className="text-xl mt-8 font-bold text-center">Skills</p>
+              <div className="grid grid-cols-3  justify-items-center mt-8 gap-4 sm:w-[70%] mx-auto ">
                 <img className="w-[70px] " src={imgHtml} alt="Logo HTML" />
                 <img className="w-[70px]" src={imgCss} alt="Logo CSS" />
                 <img className="w-[70px]" src={imgJs} alt="Logo Javascript" />
@@ -58,21 +58,17 @@ export const About = () => {
           </div>
         </div>
         <div>
-          <h3 className="font-Oswald uppercase font-bold text-[50px] md:mb-10 md:pt-10 border-b md: border-blue-700 mx-auto w-[250px] text-center ">
-            About me
+          <h3 className="font-Oswald uppercase font-bold text-[50px] md:mb-6 md:pt-10 border-b md: border-blue-700 mx-auto w-[250px] text-center ">
+           Sobre Mi
           </h3>
           <p className="p-4 mb-[-10px] text-xl font-light">
-            I trained in Full Stack Web Development motivated by the curiosity
-            that the IT world awakened in me.
+          Soy un apasionado del Desarrollo Web Full Stack y actualmente estoy ampliando mis conocimientos mediante la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas en la Universidad Nacional del Centro de la Provincia de Buenos Aires.
           </p>
           <p className="p-4 mb-[-10px] text-xl font-light">
-            That same curiosity motivated me to go deeper into the development
-            of technologies, learning in a self-taught and constant way, which
-            allowed me to take my first steps as a professional.
+          Esa misma curiosidad me motivó a profundizar en el desarrollo de tecnologías, aprendiendo de forma autodidacta y constante, lo que me permitió dar mis primeros pasos como profesional.
           </p>
           <p className="p-4 mb-[-10px] text-xl font-light">
-            I was looking to be part of a team where I could collaborate to face
-            ambitious projects, with creativity, flexibility and initiative.
+          Estoy emocionado por contribuir al éxito de nuevos proyectos. Estoy convencido de que mi habilidad para colaborar y mi enfoque proactivo son activos valiosos para cualquier equipo de desarrollo.
           </p>
         </div>
       </div>

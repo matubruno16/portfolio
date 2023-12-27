@@ -24,10 +24,10 @@ export const Certifications = () => {
   return (
     <section name="Certifications" className="w-[85%] mx-auto py-[40px]">
       <h3 className="text-[50px] uppercase font-bold font-Oswald mt-6 text-center">
-        Certifications
+        Certificaciones
       </h3>
       <p className="text-center text-sm pb-[40px]">
-        Certificates obtained at different bootcamps
+        Certificaciones obtenidas
       </p>
       <div>
         <Slider {...settings}>

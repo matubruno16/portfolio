@@ -6,7 +6,7 @@ export const Contact = () => {
     <section name="Contact">
       <div className="bg-Overlay h-[400px] md:h-[500px] bg-cover md:bg-center flex flex-col justify-center items-center">
         <h5 className=" text-white text-[42px] font-Oswald border-b-[2px] border-b-Blue ">
-          Send Message
+          Envianos un Mensaje
         </h5>
         <motion.a
           whileHover={{ scale: 1.1 }}
@@ -15,7 +15,7 @@ export const Contact = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          Contact me
+          Contacto
         </motion.a>
         <ul className="flex ">
           <li>

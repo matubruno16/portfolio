@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import Logo from '../assets/images/logo.webp'
+
 export const NavBar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const handleClick = () => {
@@ -29,27 +31,27 @@ export const NavBar = () => {
 
   const links = [
     {
-      link: "Home",
+      link: "Inicio",
       id: 1,
     },
     {
-      link: "About",
+      link: "Sobre Mi",
       id: 2,
     },
     {
-      link: "Proyects",
+      link: "Proyectos",
       id: 3,
     },
     {
-      link: "Certifications",
+      link: "Certificaciones",
       id: 4,
     },
     {
-      link: "Services",
+      link: "Servicios",
       id: 5,
     },
     {
-      link: "Contact",
+      link: "Contacto",
       id: 6,
     },
   ];
@@ -57,22 +59,24 @@ export const NavBar = () => {
   return (
     <nav
       className={[
-        "absolute",
+        "",
         !isMenuOpen
           ? ` ${
               navbarBackground === "transparent"
                 ? "bg-transparent"
                 : " bg-BackgroundHome"
-            } fixed top-0  w-screen h-[80px] z-[300]`
+            } fixed w-screen h-[61px] z-[300] `
           : " h-screen fixed bg-BackgroundHome bg-left-top z-[300] ",
       ]}
     >
-      <div className="flex justify-between items-center px-10 xl:px-20 w-screen pt-4 md:pt-0">
+      <div className="flex justify-between items-center px-10 xl:px-20 w-screen pt-2 lg:pt-0">
         <a
           href="https://matubruno16.github.io/portfolio"
-          className="text-white font-Oswald text-4xl"
         >
-          Portfolio
+          <img 
+            className="w-[200px] lg:w-[270px] m-2"
+            src={Logo} 
+            alt="Logo Matias Bruno" />
         </a>
         <svg
           onClick={handleClick}
@@ -81,7 +85,7 @@ export const NavBar = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-10 h-10 cursor-pointer text-white sm:hidden"
+          className="w-10 h-10 cursor-pointer text-white md:hidden"
         >
           <path
             strokeLinecap="round"
@@ -89,11 +93,11 @@ export const NavBar = () => {
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
           />
         </svg>
-        <div className="hidden sm:inline-flex ">
+        <div className="hidden md:inline-flex ">
           {!isMenuOpen &&
             links.map((l) => (
               <Link
-                className="text-white font-Oswald text-lg lg:text-2xl lg:m-6 mx-2 align-middle hover:cursor-pointer border-b
+                className="text-white font-Oswald  lg:text-xl m-1 lg:m-2 xl:m-4 align-middle hover:cursor-pointer border-b
               border-b-transparent hover:border-b hover:border-b-white hover:transition-all duration-200 ease-in-out uppercase active:border-b active:border-b-blue-400"
                 smooth={500}
                 to={l.link}
@@ -108,7 +112,8 @@ export const NavBar = () => {
         links.map((l) => (
           <Link
             onClick={() => setMenuOpen(false)}
-            className="flex font-Oswald w-min text-white text-3xl mt-10 m-6 hover:cursor-pointer hover:border-b hover:border-b-white hover:transition-all duration-300 uppercase"
+            className="flex w font-Oswald max-w-max text-white text-3xl mt-10 my-6 ml-6 hover:cursor-pointer
+             hover:border-b-4 hover:border-b-white hover:transition-all duration-300 uppercase"
             smooth={500}
             to={l.link}
             key={l.id}
