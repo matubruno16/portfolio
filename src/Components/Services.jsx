@@ -13,7 +13,7 @@ export const Services = () => {
         Servicios
       </h3>
       <p className="text-center text-sm pb-[40px]">
-      Implementación de diseño UI/UX avanzado, programación eficiente en diversos lenguajes y mantenimiento integral de sitios.
+        Implementación de diseño UI/UX avanzado, programación eficiente en diversos lenguajes y mantenimiento integral de sitios.
       </p>
 
       <motion.div
@@ -28,8 +28,8 @@ export const Services = () => {
               style={{ color: "hsl(225,15%,40%)%)", fontSize: "54px" }}
             />
           }
-          titleService="Diseño Web"
-          descriptionService="El diseño web impacta directamente en la visibilidad y credibilidad empresarial, al tiempo que potencia la experiencia del usuario y transforma visitantes en clientes. Constituye un elemento esencial para cualquier empresa que aspire a destacar y triunfar en el competitivo mercado digital."
+          titleService="Wordpress"
+          descriptionService="Optimice su presencia digital con soluciones web de vanguardia en WordPress. Desarrollamos sitios personalizados que reflejan la excelencia de su negocio. Además, ofrecemos servicios integrales de mantenimiento para garantizar un rendimiento continuo y confiable. Mejore su impacto en línea con nuestra experiencia."
         />
         <CardService
           icon={
@@ -38,7 +38,8 @@ export const Services = () => {
             />
           }
           titleService="desarrollo web "
-          descriptionService="Ofrecemos servicios especializados en desarrollo web, un aspecto crucial para la creación de sitios web altamente funcionales y eficientes. Nos dedicamos a la creación de sitios personalizados, integrando tecnologías de vanguardia y funciones avanzadas para potenciar tanto la experiencia del usuario como la eficacia general del sitio."
+          descriptionService="
+            Especializado en desarrollo web, ofrezco soluciones excepcionales con HTML, CSS y Javascript. Desde sitios estáticos hasta dinámicos con React JS, garantizo una experiencia de usuario única y funcionalidad de vanguardia. Potencie su presencia en línea con mi experiencia técnica y creativa. ¡¡No dudes en consultarnos!!"
         />
         <CardService
           icon={
@@ -46,8 +47,8 @@ export const Services = () => {
               style={{ color: "hsl(225,15%,40%)%)", fontSize: "54px" }}
             />
           }
-          titleService="RESPONSIVE"
-          descriptionService="Un sitio web responsive mejora la experiencia del usuario, aumenta el tiempo de permanencia y reduce la tasa de rebote. Además, los motores de búsqueda (Google, Bin, etc.) favorecen a los sitios web responsive, lo que mejora un mejor posicionamiento SEO atrayendo trafico orgánico."
+          titleService="Testing"
+          descriptionService="Perfeccione la calidad de su sitio web o aplicación con nuestros servicios de testing. Nuestro equipo experto identificará y resolverá cualquier problema, asegurando un rendimiento óptimo y una experiencia del usuario sin contratiempos. Confíe en nosotros para garantizar la excelencia en cada aspecto de su proyecto digital."
         />
       </motion.div>
     </section>
