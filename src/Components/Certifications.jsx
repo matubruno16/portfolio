@@ -22,7 +22,7 @@ export const Certifications = () => {
     arrows: true,
   };
   return (
-    <section name="Certificaciones" className="w-[85%] mx-auto py-[40px]">
+    <section name="Certificaciones" className="w-[85%] mx-auto py-10">
       <h3 className="text-[50px] uppercase font-bold font-Oswald mt-6 text-center">
         Certificaciones
       </h3>

@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 export const Contact = () => {
   return (
     <section name="Contacto">
-      <div className="bg-Overlay h-[400px] md:h-[500px] bg-cover md:bg-center flex flex-col justify-center items-center">
+      <div className="bg-Overlay h-[300px] md:h-[400px] bg-cover md:bg-center flex flex-col justify-center items-center">
         <h5 className=" text-white text-[42px] font-Oswald border-b-[2px] border-b-Blue ">
           Envianos un Mensaje
         </h5>

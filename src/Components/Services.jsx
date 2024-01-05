@@ -7,7 +7,7 @@ export const Services = () => {
   return (
     <section
       name="Servicios"
-      className="xl:w-[80%] w-[95%] mx-auto h-auto my-20"
+      className="xl:w-[80%] w-[95%] mx-auto h-auto py-10 " 
     >
       <h3 className="text-[50px] uppercase font-bold font-Oswald mt-10 text-center">
         Servicios
